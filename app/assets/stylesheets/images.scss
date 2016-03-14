@@ -1,0 +1,30 @@
+// Place all the styles related to the Images controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ul {
+  width:300px;
+  list-style:none;
+  padding:0;
+  text-align:center;
+  overflow:auto;
+}
+ul > li {
+  margin-bottom:15px;
+}
+
+li {
+  float: left;
+  width: 200px;
+  overflow: auto;
+}
+
+li img {
+  width: 100%;
+}
+
+li span{
+  display:block;
+  clear:both;
+  background:#5A9BD5;
+  padding:15px 0;
+}
