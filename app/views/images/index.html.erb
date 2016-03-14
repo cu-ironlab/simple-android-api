@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<ul>
+  <% @images.each do |image| %>
+    <li>
+      <%= image_tag image.attachment.url %>
+      <%= link_to 'Destroy', image, method: :delete %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'New Image', new_image_path %>
