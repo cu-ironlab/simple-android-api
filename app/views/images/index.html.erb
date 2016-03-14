@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<%= link_to 'New Image', new_image_path %>
+
 <ul>
   <% @images.each do |image| %>
     <li>
@@ -8,5 +10,3 @@
     </li>
   <% end %>
 </ul>
-
-<%= link_to 'New Image', new_image_path %>
